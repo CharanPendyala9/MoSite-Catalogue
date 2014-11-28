@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Mosite Catalogue.exe" version="1.0.0.0" publicKeyToken="ef14ad34b3aefebc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Mosite Catalogue" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Mosite Catalogue.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mosite Catalogue.exe" size="23040">
+      <assemblyIdentity name="Mosite Catalogue" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VH6YwMz8mKT3qFjMTZE4NGoETdaJQRIB9IU7mKjK+tQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebDriver.dll" size="3949568">
+      <assemblyIdentity name="WebDriver" version="2.42.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+ve0tMQgeOB87h3idYV/zBNrhIFKT/2S5kKMbsSwrfE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebDriver.Support.dll" size="44032">
+      <assemblyIdentity name="WebDriver.Support" version="2.42.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kTzBqstVFcjO6IhXFuK4cJq/OFKHQLvr1LfqUOq3meU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Mosite Catalogue.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Magic\Charan" issuerKeyHash="c0a0a39419993c59f2fa93260c8e49567f7f8999" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rW8AfWC7g5aM57WrrzIeYa5NMgr6UK0gCdnmQeQCwyw=</DigestValue></Reference></SignedInfo><SignatureValue>Aatn6GYUHk2pdqi+t105NAR3ouU3IBW0rQzx9dCrL/SFkfbgYsiT2nWONGiX4h/brzbpE6G+T+2hCbhoc4BYSoN+z29GdCQ5/A7rdjOqkOj5GFxGKBLR6pca8ULTi3FZzzMKnnwarfmqAPqFjjTAhKzkE3QZRGxfWFc/qjuGfAQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vKxX31/MD8tKXm3z1RGYQ+gmj4wXnZ00q+h175a7HAYyeF+SpPNu1eVvH3Dc/CFI9Ri5ejc52wDVISJmaqYG3Md3BEAtsgl8LU9iPKSzsFcR29bAQKISuQn25jCAEjOY1hv9r+AxiT4mLAgRFt50G+Q9rus1pSOdWOGGQ+HbeG8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2cc302e441e6d90920ad50fa0a324dae611e32afabb5e78c9683bb607d006fad" Description="" Url=""><as:assemblyIdentity name="Mosite Catalogue.exe" version="1.0.0.0" publicKeyToken="ef14ad34b3aefebc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Magic\Charan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rVC2Bvwmg3q+xV+pPlZmrDOb3LDdo6KQaApNDfm+ECU=</DigestValue></Reference></SignedInfo><SignatureValue>g/8/m9Hz8iPMid7Rdwiuf/49mnZ0nR62ejRGVlB6kv7/rEK5gLrmaqQTPKaaVqnOxRP3nA8/27o9u7gU9/Gx0hz3/FSQWJvmhBioLAX5N5ZWSArDDN+p6qrH7+LmZbSkvN769KHjolbxmgdimiZCAxm/Y5Hgzm6QZ9UTS2nNBnc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vKxX31/MD8tKXm3z1RGYQ+gmj4wXnZ00q+h175a7HAYyeF+SpPNu1eVvH3Dc/CFI9Ri5ejc52wDVISJmaqYG3Md3BEAtsgl8LU9iPKSzsFcR29bAQKISuQn25jCAEjOY1hv9r+AxiT4mLAgRFt50G+Q9rus1pSOdWOGGQ+HbeG8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQWO73lb50xIdFyjC4VQ6JYjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATQBhAGcAaQBjAFwAQwBoAGEAcgBhAG4wHhcNMTQwOTA4MDU1NjExWhcNMTUwOTA4MTE1NjExWjAjMSEwHwYDVQQDHhgATQBhAGcAaQBjAFwAQwBoAGEAcgBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALysV99fzA/LSl5t89URmEPoJo+MF52dNKvode+WuxwGMnhfkqTzbtXlbx9w3PwhSPUYuXo3OdsA1SEiZmqmBtzHdwRALbIJfC1PYjyks7BXEdvWwECiErkJ9uYwgBIzmNYb/a/gMYk+JiwIERbedBvkPa7rNaUjnVjhhkPh23hvAgMBAAEwDQYJKoZIhvcNAQELBQADgYEANGS9td3hJpqX2DpBcUGpr7YbhiofBY4fzp33k4QsAtBFfrXAMkfrwWjWgBEOV6dD5xiaLkgbbEBDdkkmjY7GEA/OOgg5pbnVCUoC1f8/WpWm2+Erb3N2YTaqcssSdmD67LsLdZUO0n/j0czQcxmM/lcWkWc+3wQmFeGaRIN9Oag=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
